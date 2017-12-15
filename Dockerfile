@@ -1,6 +1,6 @@
 FROM java:jre-alpine
 
-MAINTAINER Moti Zilberman <motiz88@gmail.com>
+MAINTAINER Scott Peper <cspeper@gmail.com>
 
 RUN apk add --update --no-cache \
 	 unzip \
