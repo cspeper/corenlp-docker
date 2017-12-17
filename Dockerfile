@@ -14,4 +14,4 @@ WORKDIR stanford-corenlp-full-2017-06-09
 
 RUN export CLASSPATH="`find . -name '*.jar'`"
 
-CMD java -cp "*" -mx4g edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port $PORT -password $PASSWORD -username $USERNAME
+CMD java -cp "*" -mx4g edu.stanford.nlp.pipeline.StanfordCoreNLPServer -password $PASSWORD -username $USERNAME
